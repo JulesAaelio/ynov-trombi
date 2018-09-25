@@ -14,7 +14,7 @@ db.authenticate().then((r) => {
 const models = requireModels(db,__dirname+'/models');
 
 // Sync database
-db.sync().then((r)=> {
+db.sync({force:true}).then((r)=> {
     console.log("[DATABASE] Database synchronised");
 }).catch(e => {
     console.error(e);
