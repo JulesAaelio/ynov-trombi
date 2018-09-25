@@ -2,9 +2,9 @@
   "name": "ynov-trombi",
   "version": "1.0.0",
   "description": "simple trombi",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "npm start"
+    "test": "node src/index.js"
   },
   "repository": {
     "type": "git",
