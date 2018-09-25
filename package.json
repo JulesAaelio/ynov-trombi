@@ -1,0 +1,19 @@
+{
+  "name": "ynov-trombi",
+  "version": "1.0.0",
+  "description": "simple trombi",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulesAaelio/ynov-trombi.git"
+  },
+  "author": "Jules Aaelio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JulesAaelio/ynov-trombi/issues"
+  },
+  "homepage": "https://github.com/JulesAaelio/ynov-trombi#readme"
+}
