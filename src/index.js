@@ -1,5 +1,5 @@
 console.log('App started');
-
+require('dotenv').config();
 const app = require('./utils/express');
 
 
