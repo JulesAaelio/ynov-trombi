@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+}
+
+
+.trombi-img
+{
+    width: 130px;
+    height: 130px;
+    margin-bottom: 5px;
+}
+
+.trombi-name {
+    max-width: 130px;
+}
+
+.trombi {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.person {
+    text-align: center;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
