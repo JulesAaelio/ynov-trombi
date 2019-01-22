@@ -1,5 +1,24 @@
 extends base
 block content
+    div.filters
+        div.quick-filters
+            form
+
+                label(for="input-lastname") NOM
+                input(name="lastname" id="input-lastname" value=query.lastname)
+                label(for="input-firstname") Prénom
+                input(name="firstname" id="input-firstname" value=query.firstname)
+                input(id="all-radio" type="radio" name="spe" value="" checked)
+                label(for="all-radio") Tous
+
+                input(type="radio" name="spe" value="dev" id="dev-radio" checked=query.spe ==='dev')
+                label(for="dev-radio") Développement
+
+                input(type="radio" name="spe" value="infra" id="infra-radio" checked=query.spe ==='infra' )
+                label(for="infra-radio") Infrastructure et SI
+
+                input(type="submit" value="Rechercher")
+
     div.trombi
         each person in persons
             include person
