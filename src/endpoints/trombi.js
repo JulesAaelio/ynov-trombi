@@ -25,7 +25,7 @@ module.exports = (app,db) => {
       const persons = await db.Person.findAll(options);
     res.render('trombi', {
       persons,
-      query: req.query
+      query: req.query || {}
     });
   });
 };
